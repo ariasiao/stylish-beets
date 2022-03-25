@@ -9,7 +9,7 @@ html {
 
 body {
   background-color: #c9b5ab;
-  padding-left: 1.5em;
+  padding-left: .5em;
   padding-right: 1.5em;
 }
 
@@ -28,23 +28,43 @@ header ol {
   font-size: 1.125rem;
   color: #8f2440;
   padding-bottom: 1em;
-}
-
-main figure {
-  font-family: "PT Serif", sans-serif;
-  font-style: italic;
-  font-size: .8rem;
-}
-
-p{
   line-height: 1.5;
-  font-weight: bolder;
 }
 
 img {
   width: 100%;
-  height: auto;
-  padding-bottom: 1em;
+  height: inherit;
+}
+
+main figcaption {
+  font-family: "PT Serif", sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  padding-top: .6em;
+  text-align: center;
+}
+
+
+main article {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+main p {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  padding-top: 0;
+}
+
+blockquote p {
+  font-family: "PT Serif", sans-serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 a {
@@ -59,10 +79,38 @@ a:hover {
 p {
   font-size: 1.25rem;
   color: #222;
+  line-height: 1.5;
 }
 
 aside nav ol {
   list-style-type: lower-greek;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+aside p {
+  font-family: "PT Serif", sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.data {
+  font-family: "PT Serif", sans-serif;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 1.25rem;
+}
+
+dl {
+  line-height: 1.5;
+}
+
+dl dt {
+  color: #222;
+  font-style: normal;
+  font-weight: bolder;
 }
 
 ul {
@@ -73,11 +121,7 @@ ul {
   color: #222;
 }
 
-footer a{
+footer a {
   color: #8f2440;
   text-decoration: none;
-}
-
-footer a:hover{
-  color: #3f1622;
 }
