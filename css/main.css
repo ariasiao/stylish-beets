@@ -1,7 +1,5 @@
 html {
   box-sizing: border-box;
-  font-weight: normal;
-  font-family: "PT Serif", serif;
   text-align: justify;
 }
 
@@ -11,6 +9,8 @@ html {
 
 body {
   background-color: #c9b5ab;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 h1, h2 {
@@ -18,25 +18,33 @@ h1, h2 {
   font-weight: bold;
   font-size: 1.5rem;
   color: #3f1622;
+  padding-bottom: 0;
 }
 
-ol {
+header ol {
   list-style-type: none;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
   font-size: 1.125rem;
   color: #8f2440;
+  padding-bottom: 1em;
 }
 
-figure {
-  font-family: "PT Sans", sans-serif;
+main figure {
+  font-family: "PT Serif", sans-serif;
   font-style: italic;
-  font-size: 1.25rem;
+  font-size: .8rem;
+}
+
+p{
+  line-height: 1.5;
+  font-weight: bolder;
 }
 
 img {
   width: 100%;
   height: auto;
+  padding-bottom: 1em;
 }
 
 a {
@@ -45,8 +53,7 @@ a {
 
 a:hover {
   color: #3f1622;
-  text-decoration: line-through;
-  line-height: 1.5;
+  text-decoration: none;
 }
 
 p {
@@ -54,10 +61,23 @@ p {
   color: #222;
 }
 
+aside nav ol {
+  list-style-type: lower-greek;
+}
+
 ul {
   list-style-type: circle;
   font-family: "PT Sans", sans-serif;
   font-weight: normal;
-  font-size: 1.25rem;
+  font-size: .8rem;
   color: #222;
+}
+
+footer a{
+  color: #8f2440;
+  text-decoration: none;
+}
+
+footer a:hover{
+  color: #3f1622;
 }
