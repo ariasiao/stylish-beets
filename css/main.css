@@ -1,27 +1,63 @@
-html{
+html {
+  box-sizing: border-box;
   font-weight: normal;
-  font-style: normal;
-  font-size: 0.8rem/1.5;
-  font-family: 'PT Sans', sans-serif;
-  font-family: 'PT Serif', serif;
+  font-family: "PT Serif", serif;
+  text-align: justify;
+}
 
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
-  background-color: #c9b5ab
+  background-color: #c9b5ab;
 }
 
 h1, h2 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
   font-size: 1.5rem;
   color: #3f1622;
 }
 
-li {
+ol {
+  list-style-type: none;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
   font-size: 1.125rem;
-  color: #8f2440
+  color: #8f2440;
+}
+
+figure {
+  font-family: "PT Sans", sans-serif;
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: line-through;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: line-through;
+  line-height: 1.5;
 }
 
 p {
-  font-size: 0.8rem;
-  color: #222
+  font-size: 1.25rem;
+  color: #222;
+}
+
+ul {
+  list-style-type: circle;
+  font-family: "PT Sans", sans-serif;
+  font-weight: normal;
+  font-size: 1.25rem;
+  color: #222;
 }
