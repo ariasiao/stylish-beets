@@ -1,0 +1,26 @@
+html{
+  font: normal 0.8rem/1.5 Georgia,serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 0.8rem/1.5;
+  font-family: Georgia,serif;
+}
+
+body {
+  background-color: #c9b5ab
+}
+
+h1, h2 {
+  font-size: 1.5rem;
+  color: #3f1622;
+}
+
+li {
+  font-size: 1.125rem;
+  color: #8f2440
+}
+
+p {
+  font-size: 0.8rem;
+  color: #222
+}
